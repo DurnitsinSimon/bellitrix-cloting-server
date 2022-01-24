@@ -53,7 +53,7 @@ export class OrderService {
       description: `Заказ N*${numberOfOrder} После успешной оплаты вернитесь в магазин для подтверждения, в противном случае заказ не будет создан`,
       confirmation: {
         type: 'redirect',
-        return_url: 'http://localhost:3000/successPayment',
+        return_url: 'http://45.147.178.120:3000/successPayment',
       },
     };
 
